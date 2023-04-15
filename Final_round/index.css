@@ -1,5 +1,5 @@
 html {
-    font-size: 20px;
+    font-size: 0.75px;
 }
 
 @keyframes rotate {
@@ -7,16 +7,20 @@ html {
         transform: translate(-50%, 0) rotateZ(0deg);
     }
     50% {
-        transform: translate(-50%, 0) rotateZ(180deg);
+        transform: translate(-50%, 0) rotateZ(90deg);
     }
     100% {
-        transform: translate(-50%, 0) rotateZ(360deg);
+        transform: translate(-50%, 0) rotateZ(180deg);
     }
 }
 
 .wrapper {
     background-color: black;
     height: 100vh;
+    width: auto;
+    top: 0;
+    left: 0;
+    padding: 0;
     position: relative;
     display: grid;
     align-items: center;
@@ -26,180 +30,195 @@ html {
 .square1 {
     position: absolute;
     background-color: white;
-    height: 450px;
-    width: 450px;
+    border-radius: 15rem;
+    height: 450rem;
+    width: 450rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 8s;
 }
 
 .square-black1 {
     position: absolute;
     background-color: black;
-    height: 430px;
-    width: 430px;
+    border-radius: 15rem;
+    height: 430rem;
+    width: 430rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 7.5s;
-    animation-iteration-count: infinite;
 }
 
 .square2 {
     position: absolute;
     background-color: white;
-    height: 410px;
-    width: 410px;
+    border-radius: 15rem;
+    height: 410rem;
+    width: 410rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 7s;
-    animation-iteration-count: infinite;
 }
 
 .square-black2 {
     position: absolute;
     background-color: black;
-    height: 390px;
-    width: 390px;
+    border-radius: 15rem;
+    height: 390rem;
+    width: 390rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 6.5s;
-    animation-iteration-count: infinite;
 }
 
 .square3 {
     position: absolute;
     background-color: white;
-    height: 370px;
-    width: 370px;
+    border-radius: 15rem;
+    height: 370rem;
+    width: 370rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 6s;
-    animation-iteration-count: infinite;
 }
 
 .square-black3 {
     position: absolute;
     background-color: black;
-    height: 350px;
-    width: 350px;
+    border-radius: 15rem;
+    height: 350rem;
+    width: 350rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 5.5s;
-    animation-iteration-count: infinite;
 }
 
 .square4 {
     position: absolute;
     background-color: white;
-    height: 330px;
-    width: 330px;
+    border-radius: 15rem;
+    height: 330rem;
+    width: 330rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
 }
 
 .square-black4 {
     position: absolute;
     background-color: black;
-    height: 310px;
-    width: 310px;
+    border-radius: 15rem;
+    height: 310rem;
+    width: 310rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 4.5s;
-    animation-iteration-count: infinite;
 }
 
 .square5 {
     position: absolute;
     background-color: white;
-    height: 290px;
-    width: 290px;
+    border-radius: 15rem;
+    height: 290rem;
+    width: 290rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
 }
 
 .square-black5 {
     position: absolute;
     background-color: black;
-    height: 270px;
-    width: 270px;
+    border-radius: 15rem;
+    height: 270rem;
+    width: 270rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 3.5s;
-    animation-iteration-count: infinite;
 }
 
 .square6 {
     position: absolute;
     background-color: white;
-    height: 250px;
-    width: 250px;
+    border-radius: 15rem;
+    height: 250rem;
+    width: 250rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
 }
 
 .square-black6 {
     position: absolute;
     background-color: black;
-    height: 230px;
-    width: 230px;
+    border-radius: 15rem;
+    height: 230rem;
+    width: 230rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 2.5s;
-    animation-iteration-count: infinite;
 }
 
 .square7 {
     position: absolute;
     background-color: white;
-    height: 210px;
-    width: 210px;
+    border-radius: 15rem;
+    height: 210rem;
+    width: 210rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
 }
 
 .square-black7 {
     position: absolute;
     background-color: black;
-    height: 190px;
-    width: 190px;
+    border-radius: 15rem;
+    height: 190rem;
+    width: 190rem;
     left: 50%;
     transform: translate(-50%, 0);
     animation-name: rotate;
-    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
     animation-duration: 1.5s;
-    animation-iteration-count: infinite;
 }
